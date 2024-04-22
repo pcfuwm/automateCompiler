@@ -15,6 +15,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      token: ${{ secrets.UBERSHMEKEL_ALT_TOKEN }}
 
     - name: Setup JDK
       uses: actions/setup-java@v2
